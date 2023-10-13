@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:hsl(216, 12%, 8%);
+  }
+  #container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(213, 19%, 18%);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+  button {
+    background-color: hsl(25, 97%, 53%);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+
+  h1{
+    color: aliceblue;
+  }
+
+  label{
+    color: aliceblue;
+  }
+  #nome,#cargo, #senha{
+    background-color:  hsl(217, 12%, 63%) ;
+  }
+
+  ::placeholder{
+    color: hsl(216, 12%, 45%);
+  }
+  
+  
