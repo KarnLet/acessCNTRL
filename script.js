@@ -1,3 +1,5 @@
+//JavaScript source file encoding: UTF-8.
+
 function verificarAcesso() {
     let nome = document.getElementById("nome").value;
     let cargo = document.getElementById("cargo").value;
